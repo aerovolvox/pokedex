@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <script src="https://unpkg.com/vue"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    </head>
+    <body>
+        <div id="app">
+            <div id="pokedex">
+                <div v-if="sensor" id="sensor"></div>
+                <div id="image-wrapper">
+                    <img v-if="!page" class="image" v-bind:src="image">
+                    <div  class="text" v-if="page" class="abilities">
+                        Abilities
+                        <ul>
+                            <li v-for="item in abilities">{{item.ability.name}}</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="up-button" @click="nextPage()"></div>
+                <div id="down-button" @click="nextPage()"></div>
+
+                <div id="right-button" @click="nextPokemon()"></div>
+                <div id="left-button" @click="previousPokemon()"></div>
+
+
+
+                <input v-model="name" type="text" id="pokemon-name" class="text" @keyup.enter="getInfo()"  @input="active('name')" :value="name">
+
+                <div id="id-wrapper" class="text">
+                    <span id="tagsign">#</span>
+                    <input class="text" id="id" v-model="id" type="text" @input="active('id')" @keyup.enter="getInfo()" :value="id">
+                </div>
+                <input v-on:click="getInfo()" type="button" id="button" >
+
+            </div>
+        </div>
+
+        <script src="utility.js" type="text/javascript"></script>
+    </body>
+</html>
