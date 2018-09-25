@@ -4,7 +4,7 @@ html,body{
 }
 
 #pokedex{
-    background: url('pokedex_by_dorifutorabbit-d38eqri.png');
+    background: url('https://raw.githubusercontent.com/aerovolvox/pokedex/master/pokedex_by_dorifutorabbit-d38eqri.png');
     background-repeat: no-repeat;
     background-position: center; 
     background-size:contain;
