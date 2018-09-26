@@ -1,7 +1,7 @@
 <html>
     <head>
         <script src="https://unpkg.com/vue"></script>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style_large.css">
         <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
     </head>
     <body>
@@ -10,8 +10,8 @@
                 <div v-if="sensor" id="sensor"></div>
                 <div id="image-wrapper">
                     <img v-if="!page" class="image" v-bind:src="image">
-                    <div  class="text" v-if="page" class="abilities">
-                        Abilities
+                    <div  class="text" v-if="page">
+                        <div  class="abilities">Abilities </div>
                         <ul>
                             <li v-for="item in abilities">{{item.ability.name}}</li>
                         </ul>
