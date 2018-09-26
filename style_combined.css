@@ -1,0 +1,345 @@
+@media only screen and (max-width: 800px)  {
+html,body{
+    margin:0;
+    padding: 0;
+}
+
+#pokedex{
+    background: url('pokedex_by_dorifutorabbit-d38eqri.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size:contain;
+    width: 450px;
+    height: 337px;
+}
+
+/*73,66; 107,98*/
+#sensor{
+    position: absolute;
+    margin-left:73px;
+    margin-top:66px;
+    width: 34px;
+    height: 32px;
+    text-align: center; 
+    border-radius: 100%;
+    background-color: white;
+    opacity: 1;
+    box-shadow:
+        0 0 10px 5px #fff,  /* inner white */
+        0 0 15px 10px #f0f, /* middle magenta */
+        0 0 20px 13px #0ff; /* outer cyan */
+}
+
+#button{
+    cursor: pointer;
+    position: absolute;
+    margin-left:360px;
+    margin-top:230px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    opacity: 0;
+}
+
+/* 160,227;173,242 */
+#up-button{
+    
+    cursor: pointer;
+    position: absolute;
+    margin-left:160px;
+    margin-top:227px;
+    width: 14px;
+    height: 15px;
+    background-color: orange;
+    opacity: 0; 
+}
+
+
+/* 160,257;173,272 */
+#down-button{
+    
+    cursor: pointer;
+    position: absolute;
+    margin-left:160px;
+    margin-top:257px;
+    width: 14px;
+    height: 15px;
+    background-color: orange;
+    opacity: 0;
+}
+/*173,243;189,259*/
+#right-button{
+    
+    cursor: pointer;
+    position: absolute;
+    margin-left:174px;
+    margin-top:242px;
+    width: 16px;
+    height: 14px;
+    background-color: orange;
+    opacity: 0;
+}
+/* 144,242;161,255*/
+#left-button{
+    
+    cursor: pointer;
+    position: absolute;
+    margin-left:144px;
+    margin-top:242px;
+    width: 16px;
+    height: 14px;
+    background-color: orange;
+    opacity: 0;
+}
+
+
+.abilities{
+    text-align: center;
+    font-size:10px;
+}
+ul{
+    margin-top: 0px;
+    list-style: none;
+    padding: 0;
+}
+li{
+    font-size:8px;
+}
+
+/*100,141; 167,197*/
+#image-wrapper{
+    position: absolute;
+    margin-left:100px;
+    margin-top:141px;
+    width: 67px;
+    height: 56px;
+    text-align: center;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+/*253,140; 376,140*/
+#pokemon-name{
+    text-transform: uppercase;
+    position: absolute;
+    margin-left:253px;
+    margin-top:137px;
+    width: 123px;
+    text-align: center;
+    background-color: rgb(0,104,55);
+    border :2px double lime;
+    border-radius: 4px;
+    color:lime;
+
+}
+
+/*313,260; 376,260*/
+#id-wrapper{
+    position: absolute;
+    margin-left:320px;
+    margin-top:255px;
+    height: 18px;
+}
+#tagsign{
+    text-align: center;
+    color:lime;
+    font-size: 18px;
+}
+#id{
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 15px;
+    color:lime;
+    font-size:10px;
+    width: 30px;
+    text-align: center; 
+    background-color:lime; 
+    background-color: rgb(0,104,55);
+    border :2px double lime;
+    border-radius: 4px;
+}
+
+.text{
+    font-family: 'VT323', monospace;
+}
+
+}
+
+@media only screen and (min-width: 801px)  {
+    
+        html,body{
+    margin:0;
+    padding: 0;
+}
+
+#pokedex{
+    background: url('pokedex_by_dorifutorabbit-d38eqri.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size:contain;
+    width: 900px;
+    height: 675px;
+}
+
+/*73,66; 107,98*/
+#sensor{
+    position: absolute;
+    margin-left:146px;
+    margin-top:132px;
+    width: 68px;
+    height: 64px;
+    text-align: center; 
+    border-radius: 100%;
+    background-color: white;
+    opacity: 1;
+    box-shadow:
+        0 0 20px 10px #fff,  /* inner white */
+        0 0 30px 20px #f0f, /* middle magenta */
+        0 0 40px 25px #0ff; /* outer cyan */
+}
+
+#button{
+    cursor: pointer;
+    position: absolute;
+    margin-left:720px;
+    margin-top:460px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    opacity: 0;
+}
+
+/* 160,227;173,242 */
+#up-button{
+    
+    cursor: pointer;
+    position: absolute;
+    margin-left:320px;
+    margin-top:454px;
+    width: 28px;
+    height: 30px;
+    background-color: orange;
+    opacity: 0; 
+}
+
+
+/* 160,257;173,272 */
+#down-button{
+    
+    cursor: pointer;
+    position: absolute;
+    margin-left:320px;
+    margin-top:514px;
+    width: 28px;
+    height: 30px;
+    background-color: orange;
+    opacity: 0;
+}
+/*173,243;189,259*/
+#right-button{
+    
+    cursor: pointer;
+    position: absolute;
+    margin-left:348px;
+    margin-top:484px;
+    width: 32px;
+    height: 28px;
+    background-color: orange;
+    opacity: 0;
+}
+/* 144,242;161,255*/
+#left-button{
+    
+    cursor: pointer;
+    position: absolute;
+    margin-left:288px;
+    margin-top:484px;
+    width: 32px;
+    height: 28px;
+    background-color: orange;
+    opacity: 0;
+}
+
+
+.abilities{
+    margin-top: 5px;
+    text-align: center;
+    font-size:32px;
+}
+ul{
+    margin-top: 5px;
+    list-style: none;
+    padding: 0;
+}
+li{
+    font-size:16px;
+}
+
+/*100,141; 167,197*/
+#image-wrapper{
+    position: absolute;
+    margin-left:200px;
+    margin-top:282px;
+    width: 134px;
+    height: 112px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+/*253,140; 376,140*/
+#pokemon-name{
+    text-transform: uppercase;
+    position: absolute;
+    margin-left:506px;
+    margin-top:274px;
+    width: 246px;
+    text-align: center;
+    background-color: rgb(0,104,55);
+    border :2px double lime;
+    border-radius: 4px;
+    color:lime;
+    font-size: 32px;
+}
+
+/*313,260; 376,260*/
+#id-wrapper{
+    position: absolute;
+    margin-left:640px;
+    margin-top:510px;
+    height: 36px;
+}
+#tagsign{
+    text-align: center;
+    color:lime;
+    font-size: 36px;
+}
+#id{
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 30px;
+    color:lime;
+    font-size:20px;
+    width: 60px;
+    text-align: center; 
+    background-color:lime; 
+    background-color: rgb(0,104,55);
+    border :2px double lime;
+    border-radius: 4px;
+}
+
+.text{
+    font-family: 'VT323', monospace;
+}
+
+}
+
+
+
+
